@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RTSpaceShipView.h
 //  Race to the Top
 //
 //  Created by Robin van 't Slot on 01-10-14.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@interface RTSpaceShipView : UIView
 
 @end
-

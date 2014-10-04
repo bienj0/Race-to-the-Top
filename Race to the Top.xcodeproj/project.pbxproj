@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25182B219DC521800D2A31A /* 14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A25182B119DC521800D2A31A /* 14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg */; };
+		A25182B519DC552200D2A31A /* RTMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A25182B419DC552200D2A31A /* RTMountainPath.m */; };
+		A25182B819DC583E00D2A31A /* RTPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25182B719DC583E00D2A31A /* RTPathView.m */; };
 		A26C8FA819DC2A3E000F6E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26C8FA719DC2A3E000F6E5F /* main.m */; };
 		A26C8FAB19DC2A3E000F6E5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26C8FAA19DC2A3E000F6E5F /* AppDelegate.m */; };
 		A26C8FAE19DC2A3E000F6E5F /* Race_to_the_Top.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A26C8FAC19DC2A3E000F6E5F /* Race_to_the_Top.xcdatamodeld */; };
@@ -15,6 +18,7 @@
 		A26C8FB619DC2A3E000F6E5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C8FB519DC2A3E000F6E5F /* Images.xcassets */; };
 		A26C8FB919DC2A3E000F6E5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26C8FB719DC2A3E000F6E5F /* LaunchScreen.xib */; };
 		A26C8FC519DC2A3E000F6E5F /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26C8FC419DC2A3E000F6E5F /* Race_to_the_TopTests.m */; };
+		A26C8FD019DC2A8D000F6E5F /* RTSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A26C8FCF19DC2A8D000F6E5F /* RTSpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A25182B119DC521800D2A31A /* 14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg"; sourceTree = "<group>"; };
+		A25182B319DC552200D2A31A /* RTMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMountainPath.h; sourceTree = "<group>"; };
+		A25182B419DC552200D2A31A /* RTMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMountainPath.m; sourceTree = "<group>"; };
+		A25182B619DC583E00D2A31A /* RTPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPathView.h; sourceTree = "<group>"; };
+		A25182B719DC583E00D2A31A /* RTPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPathView.m; sourceTree = "<group>"; };
 		A26C8FA219DC2A3E000F6E5F /* Race to the Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Race to the Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C8FA619DC2A3E000F6E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26C8FA719DC2A3E000F6E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +51,8 @@
 		A26C8FBE19DC2A3E000F6E5F /* Race to the TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race to the TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C8FC319DC2A3E000F6E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26C8FC419DC2A3E000F6E5F /* Race_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_the_TopTests.m; sourceTree = "<group>"; };
+		A26C8FCE19DC2A8D000F6E5F /* RTSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpaceShipView.h; sourceTree = "<group>"; };
+		A26C8FCF19DC2A8D000F6E5F /* RTSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,12 @@
 				A26C8FAF19DC2A3E000F6E5F /* ViewController.h */,
 				A26C8FB019DC2A3E000F6E5F /* ViewController.m */,
 				A26C8FB219DC2A3E000F6E5F /* Main.storyboard */,
+				A25182B619DC583E00D2A31A /* RTPathView.h */,
+				A25182B719DC583E00D2A31A /* RTPathView.m */,
+				A25182B319DC552200D2A31A /* RTMountainPath.h */,
+				A25182B419DC552200D2A31A /* RTMountainPath.m */,
+				A26C8FCE19DC2A8D000F6E5F /* RTSpaceShipView.h */,
+				A26C8FCF19DC2A8D000F6E5F /* RTSpaceShipView.m */,
 				A26C8FB519DC2A3E000F6E5F /* Images.xcassets */,
 				A26C8FB719DC2A3E000F6E5F /* LaunchScreen.xib */,
 				A26C8FAC19DC2A3E000F6E5F /* Race_to_the_Top.xcdatamodeld */,
@@ -99,6 +116,7 @@
 		A26C8FA519DC2A3E000F6E5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A25182B119DC521800D2A31A /* 14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg */,
 				A26C8FA619DC2A3E000F6E5F /* Info.plist */,
 				A26C8FA719DC2A3E000F6E5F /* main.m */,
 			);
@@ -202,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25182B219DC521800D2A31A /* 14029495302014-02-10_13-16-55__Mount_Fuji_and_Mount_Hoei.jpg in Resources */,
 				A26C8FB419DC2A3E000F6E5F /* Main.storyboard in Resources */,
 				A26C8FB919DC2A3E000F6E5F /* LaunchScreen.xib in Resources */,
 				A26C8FB619DC2A3E000F6E5F /* Images.xcassets in Resources */,
@@ -223,9 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26C8FAB19DC2A3E000F6E5F /* AppDelegate.m in Sources */,
+				A26C8FD019DC2A8D000F6E5F /* RTSpaceShipView.m in Sources */,
 				A26C8FA819DC2A3E000F6E5F /* main.m in Sources */,
 				A26C8FB119DC2A3E000F6E5F /* ViewController.m in Sources */,
 				A26C8FAE19DC2A3E000F6E5F /* Race_to_the_Top.xcdatamodeld in Sources */,
+				A25182B819DC583E00D2A31A /* RTPathView.m in Sources */,
+				A25182B519DC552200D2A31A /* RTMountainPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +372,7 @@
 				INFOPLIST_FILE = "Race to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -360,6 +383,7 @@
 				INFOPLIST_FILE = "Race to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -416,6 +440,7 @@
 				A26C8FCA19DC2A3E000F6E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A26C8FCB19DC2A3E000F6E5F /* Build configuration list for PBXNativeTarget "Race to the TopTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				A26C8FCD19DC2A3E000F6E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
